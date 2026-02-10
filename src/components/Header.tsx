@@ -42,7 +42,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
                 key={item.id}
                 href={`#${item.id}`}
                 className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
-                onClick={(e) => {
+                onClick={() => {
                   // e.preventDefault()
                   setActiveSection(item.id)
                   setIsMenuOpen(false)

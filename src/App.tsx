@@ -18,7 +18,7 @@ function App() {
     <div className="app">
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       <main>
-        <Hero setActiveSection={setActiveSection} />
+        <Hero />
         <About />
         <Skills />
         <Experience />

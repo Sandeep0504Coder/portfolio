@@ -1,11 +1,7 @@
 import '../styles/Hero.css'
 import profilePic from '../assets/profile.jpg'
 
-interface HeroProps {
-  setActiveSection: (section: string) => void
-}
-
-export default function Hero({ setActiveSection }: HeroProps) {
+export default function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-background">
