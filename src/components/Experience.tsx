@@ -19,7 +19,7 @@ export default function Experience() {
                 <h3 className="job-title">Junior Software Engineer</h3>
                 <span className="company">Defineway Technologies Pvt. Ltd.</span>
               </div>
-              <p className="job-period">Aug 2023 – Present</p>
+              <p className="job-period">Aug 2023 – Jan 2026</p>
               <ul className="job-responsibilities">
                 <li>Contributed to and led development of multiple production-grade web and mobile applications using MERN stack and Flutter</li>
                 <li>Led small teams, owned feature delivery, improved security, performance, and system reliability</li>
